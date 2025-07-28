@@ -1,0 +1,142 @@
+body{
+     background-image: url("img/bg1-port/182428240217.jpg");
+     height: 100vh;
+     background-size: cover;
+     background-position: center;
+     overflow-x: hidden;
+     }
+.nav{
+    background-color:#222;
+    color:aqua ;
+    height: 70px;
+    width: 1300px;
+    position: relative;
+    bottom: 8px;
+    right: 10px;
+}
+.menu,li{
+    display: inline;
+    padding: 20px;
+    position: relative;
+    bottom: 8px;
+    left: 350px;
+    font-size: 1.2rem;
+}
+/*button hover */
+.menu :hover{
+    color: #327ec5;
+}
+.logo{
+    position: relative;
+    top: 15px;
+    left: 20px;
+    font-size: 2rem;
+    
+}
+.Porfile-pic-large img{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    left: 465px;
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    background: #222;
+    border: 4px solid #222; 
+    border: 3px solid transparent; /* thinner border */
+  background-image: 
+    radial-gradient(circle at center, #000 75%, transparent 76%),  /* adjust this % to match the thinner border */
+    conic-gradient(from 0deg, #00f0ff, #327ec5, #00f0ff);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 0 0 10px #00f0ff80; /* optional: reduce glow */
+    
+} 
+
+.section-hero{
+    padding: 30px;
+    display: block;
+   
+}
+.hero{
+    position: relative;
+    top: 350px;
+    text-align: center;
+}
+.h{
+    position: relative;
+    top: 80px;
+}
+.dh{
+    position: relative;
+    top: 90px;
+}
+.ap{
+    
+    font-size: 2rem;
+    color: white;
+    position: relative;
+    top: 80px;
+}
+.hero,.h{
+    font-size: 2rem;
+    color: white;
+    bottom: 3px;
+    padding-bottom: 15px;
+}
+.hero,span{
+    color:#00f0ff;
+    font-size: 2rem;
+}
+.Aboutus{
+    color: aliceblue;
+   margin-top: 480px;
+}
+.ab{
+    font-size: 2rem;
+    text-align: center;
+    position: relative;
+    
+}
+.abp{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    letter-spacing: 1px;
+}
+.Education{
+    position: relative;
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    top: 10%; ;
+}
+.ed{
+    text-align: center;
+}
+.ed1{
+    color: aliceblue;
+    text-align: center;
+}
+.ep2{
+    position: relative;
+    bottom: 10px;
+}
+.Skills{
+    color: aliceblue;
+    position: relative;
+    
+    top: 50px;
+    text-align: center;
+
+}
+.Contact{
+    color: aliceblue;
+    position: relative;
+    top: 70px;
+    text-align: center;
+}
+
